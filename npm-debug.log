@@ -1,0 +1,43 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Users\\Avnish\\.nvm\\versions\\node\\v18.16.0\\bin\\node.exe',
+1 verbose cli   'C:\\Users\\Avnish\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'dev:react'
+1 verbose cli ]
+2 info using npm@2.15.12
+3 info using node@v18.16.0
+4 verbose run-script [ 'predev:react', 'dev:react', 'postdev:react' ]
+5 info predev:react spufo-master-final@1.0.0
+6 info dev:react spufo-master-final@1.0.0
+7 verbose unsafe-perm in lifecycle true
+8 info spufo-master-final@1.0.0 Failed to exec dev:react script
+9 verbose stack Error: spufo-master-final@1.0.0 dev:react: `cd react-spufo-master && npm start`
+9 verbose stack Exit status 1
+9 verbose stack     at EventEmitter.<anonymous> (C:\Users\Avnish\node_modules\npm\lib\utils\lifecycle.js:217:16)
+9 verbose stack     at EventEmitter.emit (node:events:513:28)
+9 verbose stack     at ChildProcess.<anonymous> (C:\Users\Avnish\node_modules\npm\lib\utils\spawn.js:24:14)
+9 verbose stack     at ChildProcess.emit (node:events:513:28)
+9 verbose stack     at maybeClose (node:internal/child_process:1091:16)
+9 verbose stack     at ChildProcess._handle.onexit (node:internal/child_process:302:5)
+10 verbose pkgid spufo-master-final@1.0.0
+11 verbose cwd C:\Users\Avnish\Desktop\CPP_Practice\WEB_DEV\WADMini\spufo-master-final
+12 error Windows_NT 10.0.22631
+13 error argv "C:\\Users\\Avnish\\.nvm\\versions\\node\\v18.16.0\\bin\\node.exe" "C:\\Users\\Avnish\\node_modules\\npm\\bin\\npm-cli.js" "run" "dev:react"
+14 error node v18.16.0
+15 error npm  v2.15.12
+16 error code ELIFECYCLE
+17 error spufo-master-final@1.0.0 dev:react: `cd react-spufo-master && npm start`
+17 error Exit status 1
+18 error Failed at the spufo-master-final@1.0.0 dev:react script 'cd react-spufo-master && npm start'.
+18 error This is most likely a problem with the spufo-master-final package,
+18 error not with npm itself.
+18 error Tell the author that this fails on your system:
+18 error     cd react-spufo-master && npm start
+18 error You can get information on how to open an issue for this project with:
+18 error     npm bugs spufo-master-final
+18 error Or if that isn't available, you can get their info via:
+18 error
+18 error     npm owner ls spufo-master-final
+18 error There is likely additional logging output above.
+19 verbose exit [ 1, true ]

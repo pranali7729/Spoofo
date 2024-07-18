@@ -1,0 +1,4 @@
+REACT_APP_CLIENT_ID=9424d54fe5fb44b3b02c5b0790335fa3
+REACT_APP_REDIRECT_URI=http://localhost:3000/callback
+REACT_APP_API_URI=https://accounts.spotify.com/authorize
+REACT_APP_SCOPE=user-read-private user-read-email user-modify-playback-state user-read-playback-state user-read-currently-playing user-read-recently-played user-top-read
